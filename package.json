@@ -3,5 +3,11 @@
   "workspaces": [
     "random",
     "www"
-  ]
+  ],
+  "scripts": {
+    "dev": "now dev"
+  },
+  "devDependencies": {
+    "now": "^15.3.0"
+  }
 }

@@ -1,4 +1,7 @@
 {
   "private": true,
-  "workspaces": ["www"]
+  "workspaces": [
+    "random",
+    "www"
+  ]
 }

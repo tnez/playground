@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "random",
+    "todos",
     "www"
   ],
   "scripts": {

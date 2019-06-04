@@ -2,13 +2,9 @@
   "version": 2,
   "name": "playground",
   "builds": [
-    { "src": "random/*.js", "use": "@now/node" },
-    { "src": "www/package.json", "use": "@now/next" },
-    { "src": "*.html", "use": "@now/static" }
+    { "src": "www/package.json", "use": "@now/next" }
   ],
   "routes": [
-    { "src": "/api/random/(.*)", "dest": "/random/$1" },
-    { "src": "/static-page", "dest": "/static-page.html" },
     { "src": "/(.*)", "dest": "/www/$1" }
   ]
 }

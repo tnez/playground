@@ -2,9 +2,9 @@
   "version": 2,
   "name": "playground",
   "builds": [
-    { "src": "www/package.json", "use": "@now/next" }
+    { "src": "packages/www/package.json", "use": "@now/next" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/www/$1" }
+    { "src": "/(.*)", "dest": "/packages/www/$1" }
   ]
 }

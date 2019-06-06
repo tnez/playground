@@ -5,8 +5,10 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "dev": "start-storybook",
     "lint": "eslint ./**/*.js --color",
-    "storybook": "start-storybook",
+    "now-build": "rm -rf .out && build-storybook -c .storybook -o .out",
+    "now-dev": "start-storybook -p $PORT",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
@@ -18,7 +20,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@storybook/react": "^5.0.11",
+    "@storybook/addon-knobs": "^5.1.1",
+    "@storybook/react": "^5.1.1",
     "babel-loader": "^8.0.6",
     "webpack": "^4.33.0"
   }

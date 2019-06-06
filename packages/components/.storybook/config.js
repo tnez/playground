@@ -4,10 +4,10 @@ import { ThemeProvider } from '@material-ui/styles'
 import Box from '@material-ui/core/Box'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
-import theme from '../themes/primary'
+import theme from '../../theme/primary'
 
 function loadStories() {
-  const req = require.context('.', true, /\.stories\.js$/)
+  const req = require.context('..', true, /\.stories\.js$/)
   req.keys().forEach(filename => req(filename))
 }
 

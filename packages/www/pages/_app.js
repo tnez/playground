@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { ThemeProvider } from '@material-ui/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
-import theme from '../themes/primary'
+import theme from '../../theme/primary'
 
 class CustomApp extends App {
   componentDidMount() {

@@ -3,7 +3,7 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheets } from '@material-ui/styles'
 import flush from 'styled-jsx/server'
 
-import theme from '../themes/primary'
+import theme from '../../theme/primary'
 
 class CustomDocument extends Document {
   render() {

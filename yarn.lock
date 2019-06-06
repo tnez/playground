@@ -5351,10 +5351,10 @@ eslint-config-standard@12.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
   integrity sha512-COUz8FnXhqFitYj4DTqHzidjIL/t4mumGZto5c7DrBpvWoie+Sn3P4sLEzUGeYhRElWuFEf8K1S1EfvD1vixCQ==
 
-eslint-config-tnez@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-tnez/-/eslint-config-tnez-0.1.5.tgz#231d0a9939d0f1369b5d342846e7f2df67cd388b"
-  integrity sha512-+LwFXTzODELFAgsGLg/W4palVDERpzjQbuRZMGkExnu1Qozf7Nk35ylqHijMGiGFOksyo0TVeqW9BT04lqiPww==
+eslint-config-tnez@0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-tnez/-/eslint-config-tnez-0.1.6.tgz#a8e47dc43bd3169b98cb75b879742351fa30ad88"
+  integrity sha512-ijbZ2EQfJcUxMcXfuNGMocvF3dD5Tlf24OVgxiNfpEgrqLV2nk6nwZRfCmLncw71/ZbpctQpDnG6jIpPkCUdOw==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"

@@ -7,10 +7,12 @@
       "src": "packages/components/package.json",
       "use": "@now/static-build"
     },
+    { "src": "packages/todos/index.js", "use": "@now/node" },
     { "src": "packages/www/package.json", "use": "@now/next" }
   ],
   "routes": [
     { "src": "/storybook", "dest": "/packages/components" },
+    { "src": "/service/todos/.*", "dest": "/packages/todos/index.js" },
     { "src": "/(.*)", "dest": "/packages/www/$1" }
   ]
 }
